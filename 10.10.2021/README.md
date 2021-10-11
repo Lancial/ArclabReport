@@ -51,7 +51,7 @@ Given a 4D CT data with segmentation labels of each organ of interests, I use CT
 
 <img src="https://render.githubusercontent.com/render/math?math=I'_{i}"> is shown on the left of the video(demons), <img src="https://render.githubusercontent.com/render/math?math=I_i"> on the right:
 
-<video src="./Screen Recording 2021-09-22 at 9.22.23 AM.mov"></video>
+./Screen Recording 2021-09-22 at 9.22.23 AM.mov
 
 Note: The left image gets blury overtime. I think this is an expected error accumulation from applying registrations
 
