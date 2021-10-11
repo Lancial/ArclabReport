@@ -47,9 +47,9 @@ Voxelmorph(unsupervised): https://www.kaggle.com/kmader/voxelmorph-on-ct-data
 
 
 
-Given a 4D CT data with segmentation labels of each organ of interests, I use CT image at $I_i$ and $I_{i+1}$ to perform a registration. The output of such registration is then a transform $T_{i->i+1}$ (a matrix of 3d vectors). By applying $T_{i->i+1}$ back to $I_i$, we are able to obtain a predicted CT image $I'_{i+1}$
+Given a 4D CT data with segmentation labels of each organ of interests, I use CT image at <img src="https://render.githubusercontent.com/render/math?math=I_i"> and <img src="https://render.githubusercontent.com/render/math?math=I_{i+1}"> to perform a registration. The output of such registration is then a transform <img src="https://render.githubusercontent.com/render/math?math=T_{i->i+1}"> (a matrix of 3d vectors). By applying <img src="https://render.githubusercontent.com/render/math?math=T_{i->i+1}"> back to <img src="https://render.githubusercontent.com/render/math?math=I_i">, we are able to obtain a predicted CT image <img src="https://render.githubusercontent.com/render/math?math=I'_{i+1}">
 
-$I'_{i}$ is shown on the left of the video(demons), $I_i$ on the right:
+<img src="https://render.githubusercontent.com/render/math?math=I'_{i}"> is shown on the left of the video(demons), <img src="https://render.githubusercontent.com/render/math?math=I_i"> on the right:
 
 <video src="./Screen Recording 2021-09-22 at 9.22.23 AM.mov"></video>
 
@@ -68,18 +68,18 @@ Voxelmorph:
 Metric used:
 
 Jaccard
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;J(A, B) = \frac{|A \cap B |}{|A \cup B|}" title="\Large J(A, B) = \frac{|A \cap B |}{|A \cup B|}" />
 <img src="https://render.githubusercontent.com/render/math?math=J(A, B) = \frac{|A \cap B |}{|A \cup B|}">
+
 dice
-$$
-DSC(A, B) = \frac{2|A \cup B|}{|A|+|B|}
-$$
+<img src="https://render.githubusercontent.com/render/math?math=DSC(A, B) = \frac{2|A \cup B|}{|A|+|B|}">
+
+
 
 
 Volume Similarity
-$$
-\frac{2(V_a-V_b)}{V_a + V_b}
-$$
+<img src="https://render.githubusercontent.com/render/math?math=\frac{2(V_a-V_b)}{V_a + V_b}">
+
+
 
 
 False_negative
