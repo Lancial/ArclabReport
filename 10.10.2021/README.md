@@ -68,11 +68,8 @@ Voxelmorph:
 Metric used:
 
 Jaccard
-$$
-
-$$
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;J(A, B) = \frac{|A \cap B |}{|A \cup B|}" title="\Large J(A, B) = \frac{|A \cap B |}{|A \cup B|}" />
-
+<img src="https://render.githubusercontent.com/render/math?math=J(A, B) = \frac{|A \cap B |}{|A \cup B|}">
 dice
 $$
 DSC(A, B) = \frac{2|A \cup B|}{|A|+|B|}
