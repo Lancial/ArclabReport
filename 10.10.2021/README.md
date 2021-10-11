@@ -62,6 +62,7 @@ https://github.com/Lancial/ArclabReport/blob/master/10.10.2021/Screen%20Recordin
 Voxelmorph:
 
 ![voxelmorph](./Screen Recording 2021-10-10 at 3.01.58 PM.mov)
+[![Alternate Text]({image-url})]({./Screen Recording 2021-10-10 at 3.01.58 PM.mov} "Link Title")
 
 ##### Numerical evaluation:
 
