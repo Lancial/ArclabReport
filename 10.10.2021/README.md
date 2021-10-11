@@ -52,14 +52,14 @@ Given a 4D CT data with segmentation labels of each organ of interests, I use CT
 
 <img src="https://render.githubusercontent.com/render/math?math=I'_{i}"> is shown on the left of the video(demons), <img src="https://render.githubusercontent.com/render/math?math=I_i"> on the right:
 
-https://user-images.githubusercontent.com/38264919/136837666-944abcf7-9195-44f3-8240-9c31cf516f36.mp4
+[![voxelmorph](1.png)](https://youtu.be/EyP0KfnXFJw)
 
 
 Note: The left image gets blury overtime. I think this is an expected error accumulation from applying registrations
 
 GDL-fire:
 
-https://user-images.githubusercontent.com/38264919/136837645-104e2ada-3808-4386-96a9-dc08018cba27.mp4
+[![voxelmorph](2.png)](https://youtu.be/VCDGKoREqmQ)
 
 
 Voxelmorph:
