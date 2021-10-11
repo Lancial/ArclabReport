@@ -69,9 +69,9 @@ Metric used:
 
 Jaccard
 $$
-J(A, B) = \frac{|A \cap B |}{|A \cup B|}
-$$
 
+$$
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;J(A, B) = \frac{|A \cap B |}{|A \cup B|}" title="\Large J(A, B) = \frac{|A \cap B |}{|A \cup B|}" />
 
 dice
 $$
