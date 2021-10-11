@@ -63,9 +63,9 @@ https://user-images.githubusercontent.com/38264919/136837645-104e2ada-3808-4386-
 
 
 Voxelmorph:
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LgypTLP4Dqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+
+[![voxelmorph](3.png)](https://www.youtube.com/embed/LgypTLP4Dqw)
+
 
 ##### Numerical evaluation:
 
