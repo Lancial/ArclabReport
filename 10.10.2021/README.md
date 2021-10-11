@@ -33,6 +33,7 @@ I also investigated automatic segmentation method for different organs in case c
 
 
 
+
 #### Image Registration Method:
 
 
@@ -51,18 +52,19 @@ Given a 4D CT data with segmentation labels of each organ of interests, I use CT
 
 <img src="https://render.githubusercontent.com/render/math?math=I'_{i}"> is shown on the left of the video(demons), <img src="https://render.githubusercontent.com/render/math?math=I_i"> on the right:
 
-https://github.com/Lancial/ArclabReport/blob/master/10.10.2021/Screen%20Recording%202021-09-22%20at%209.22.23%20AM.mov
+https://user-images.githubusercontent.com/38264919/136837666-944abcf7-9195-44f3-8240-9c31cf516f36.mp4
+
 
 Note: The left image gets blury overtime. I think this is an expected error accumulation from applying registrations
 
 GDL-fire:
 
-https://github.com/Lancial/ArclabReport/blob/master/10.10.2021/Screen%20Recording%202021-10-10%20at%202.56.19%20PM.mov
+https://user-images.githubusercontent.com/38264919/136837645-104e2ada-3808-4386-96a9-dc08018cba27.mp4
+
 
 Voxelmorph:
 
-
-[![Alternate Text](3.png)](3.mp4)
+https://user-images.githubusercontent.com/38264919/136837566-456f0c10-898c-4f47-bb30-423dcb1b7498.mp4
 
 ##### Numerical evaluation:
 
