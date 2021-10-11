@@ -47,42 +47,43 @@ Voxelmorph(unsupervised): https://www.kaggle.com/kmader/voxelmorph-on-ct-data
 
 
 
-Given a 4D CT data with segmentation labels of each organ of interests, I use CT image at $I_i$ and $I_{i+1}$ to perform a registration. The output of such registration is then a transform $T_{i->i+1}$ (a matrix of 3d vectors). By applying $T_{i->i+1}$ back to $I_i$, we are able to obtain a predicted CT image $I'_{i+1}$
+Given a 4D CT data with segmentation labels of each organ of interests, I use CT image at <img src="https://render.githubusercontent.com/render/math?math=I_i"> and <img src="https://render.githubusercontent.com/render/math?math=I_{i%2B1}"> to perform a registration. The output of such registration is then a transform <img src="https://render.githubusercontent.com/render/math?math=T_{i->i%2B1}"> (a matrix of 3d vectors). By applying <img src="https://render.githubusercontent.com/render/math?math=T_{i->i%2B1}"> back to <img src="https://render.githubusercontent.com/render/math?math=I_i">, we are able to obtain a predicted CT image <img src="https://render.githubusercontent.com/render/math?math=I'_{i+1}">
 
-$I'_{i}$ is shown on the left of the video(demons), $I_i$ on the right:
+<img src="https://render.githubusercontent.com/render/math?math=I'_{i}"> is shown on the left of the video(demons), <img src="https://render.githubusercontent.com/render/math?math=I_i"> on the right:
 
-<video src="./Screen Recording 2021-09-22 at 9.22.23 AM.mov"></video>
+https://github.com/Lancial/ArclabReport/blob/master/10.10.2021/Screen%20Recording%202021-09-22%20at%209.22.23%20AM.mov
 
 Note: The left image gets blury overtime. I think this is an expected error accumulation from applying registrations
 
 GDL-fire:
 
-<video src="Screen Recording 2021-10-10 at 2.56.19 PM.mov"></video>
+https://github.com/Lancial/ArclabReport/blob/master/10.10.2021/Screen%20Recording%202021-10-10%20at%202.56.19%20PM.mov
 
 Voxelmorph:
 
-<video src="Screen Recording 2021-10-10 at 3.01.58 PM.mov"></video>
+![voxelmorph](./Screen Recording 2021-10-10 at 3.01.58 PM.mov)
+[![Alternate Text]({image-url})]({./Screen Recording 2021-10-10 at 3.01.58 PM.mov} "Link Title")
 
 ##### Numerical evaluation:
 
 Metric used:
 
 Jaccard
-$$
-J(A, B) = \frac{|A \cap B |}{|A \cup B|}
-$$
 
+<img src="https://render.githubusercontent.com/render/math?math=J(A, B) = \frac{|A \cap B |}{|A \cup B|}">
 
 dice
-$$
-DSC(A, B) = \frac{2|A \cup B|}{|A|+|B|}
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=DSC(A, B) = \frac{2|A \cup B|}{|A|+|B|}">
+
+
 
 
 Volume Similarity
-$$
-\frac{2(V_a-V_b)}{V_a + V_b}
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{2(V_a-V_b)}{V_a + V_b}">
+
+
 
 
 False_negative
@@ -99,7 +100,7 @@ Surface distance(mean, median, max, std)
 
 
 
-Result from comparing $I_1$ and $I'_4$ , $I_4$ is used as a ground truth reference. The reason I picked them is that the movement is large and the labels are relatively good.
+Result from comparing <img src="https://render.githubusercontent.com/render/math?math=I_1"> and <img src="https://render.githubusercontent.com/render/math?math=I'_4"> , <img src="https://render.githubusercontent.com/render/math?math=I_4"> is used as a ground truth reference. The reason I picked them is that the movement is large and the labels are relatively good.
 
 <img src="Screen Shot 2021-10-10 at 2.17.54 PM.png" style="zoom:70%">
 
@@ -127,7 +128,7 @@ From the histogram above, we know that outlier with very large error exists.  He
 
 Grayscale images on top shows the surface distance
 
-Ground truth are labeled in purple, green contours on the left are from gt from $I_1$, those on the left are predicted contours obtained by applying $T_{1->2} ... T_{3->4}$ in a row to $I_{1}$.
+Ground truth are labeled in purple, green contours on the left are from gt from <img src="https://render.githubusercontent.com/render/math?math=I_1">, those on the left are predicted contours obtained by applying <img src="https://render.githubusercontent.com/render/math?math=I_{1->2} ... I_{3->4}"> in a row to <img src="https://render.githubusercontent.com/render/math?math=I_1">.
 
 
 
