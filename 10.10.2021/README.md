@@ -60,7 +60,8 @@ GDL-fire:
 https://github.com/Lancial/ArclabReport/blob/master/10.10.2021/Screen%20Recording%202021-10-10%20at%202.56.19%20PM.mov
 
 Voxelmorph:
-https://github.com/Lancial/ArclabReport/blob/master/10.10.2021/Screen%20Recording%202021-10-10%20at%203.01.58%20PM.mov
+
+![voxelmorph](./Screen Recording 2021-10-10 at 3.01.58 PM.mov)
 
 ##### Numerical evaluation:
 
